@@ -32,6 +32,8 @@ dependencies {
     compile 'org.apache.spark:spark-sql_2.11:2.3.1'
     compile 'org.json4s:json4s-native_2.11:3.6.1'
     compile 'org.scala-lang.modules:scala-xml_2.11:1.1.1'
+    compile 'org.apache.hadoop:hadoop-common:2.7.0'
+    compile 'org.apache.hadoop:hadoop-core:2.7.0'
 
 
     testCompile 'junit:junit:4.12'
